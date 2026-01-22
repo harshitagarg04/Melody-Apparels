@@ -28,7 +28,7 @@ const categories = [
 export function CategoriesSection() {
     return (
         <section className="py-20 bg-secondary/30">
-            <div className="container px-4 md:px-6">
+            <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center mb-16 space-y-4">
                     <h2 className="text-3xl font-bold tracking-tight md:text-5xl">Our Collections</h2>
                     <p className="text-muted-foreground text-lg max-w-[800px] mx-auto">

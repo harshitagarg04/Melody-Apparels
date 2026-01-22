@@ -46,7 +46,7 @@ export default function ContactPage() {
     }
 
     return (
-        <div className="container py-12 px-4 md:px-6">
+        <div className="container mx-auto py-12 px-4 md:px-6">
             <div className="text-center mb-12 space-y-4">
                 <h1 className="text-4xl font-bold tracking-tight md:text-5xl">Get in Touch</h1>
                 <p className="text-muted-foreground text-lg max-w-2xl mx-auto">

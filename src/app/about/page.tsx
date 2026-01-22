@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export default function AboutPage() {
     return (
-        <div className="container py-12 px-4 md:px-6 space-y-16">
+        <div className="container mx-auto py-12 px-4 md:px-6 space-y-16">
             {/* Hero */}
             <section className="text-center space-y-4">
                 <h1 className="text-4xl font-bold tracking-tight md:text-5xl">About Melody Apparels</h1>
