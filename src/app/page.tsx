@@ -1,5 +1,6 @@
 import { HeroSection } from "@/components/home/hero-section";
 import { CategoriesSection } from "@/components/home/categories-section";
+import { GalleryCarousel } from "@/components/home/gallery-carousel";
 import { BrandsSection } from "@/components/home/brands-section";
 import { MaterialsSection } from "@/components/home/materials-section";
 import { TrustSection } from "@/components/home/trust-section";
@@ -9,6 +10,7 @@ export default function Home() {
         <div className="flex flex-col min-h-screen">
             <HeroSection />
             <CategoriesSection />
+            <GalleryCarousel />
             <MaterialsSection />
             <BrandsSection />
             <TrustSection />

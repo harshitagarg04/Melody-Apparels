@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { GalleryCarousel } from "@/components/home/gallery-carousel";
 
 export default function AboutPage() {
     return (
@@ -9,6 +10,15 @@ export default function AboutPage() {
                 <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
                     A legacy of style, trust, and quality in Mandsaur since 1990.
                 </p>
+            </section>
+
+            {/* Gallery Section */}
+            <section className="space-y-6">
+                <div className="text-center">
+                    <h2 className="text-3xl font-bold">Our Collection In Focus</h2>
+                    <p className="text-muted-foreground mt-2">Glimpses of our finest menswear</p>
+                </div>
+                <GalleryCarousel />
             </section>
 
             {/* Story */}
@@ -23,7 +33,7 @@ export default function AboutPage() {
                             Over the decades, we have grown from a small shop to a trusted landmark in menswear. We pride ourselves on understanding our customers' needs, whether it's for a wedding, a business meeting, or casual wear.
                         </p>
                         <p>
-                            Our commitment to quality fabrics, perfect fits, and honest pricing has earned us the loyalty of generations.
+                            Our commitment to quality Clothing, perfect fits, and honest pricing has earned us the loyalty of generations.
                         </p>
                     </div>
                 </div>

@@ -7,14 +7,17 @@ import { Button } from "@/components/ui/button";
 export function HeroSection() {
     return (
         <section className="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
-            <div className="absolute inset-0 z-0">
+            <div className="absolute inset-0 z-0 bg-black">
                 <Image
                     src="/hero-banner.png"
                     alt="Melody Apparels Hero"
                     fill
-                    className="object-cover brightness-50"
+                    className="object-cover brightness-[0.45] saturate-[1.6] contrast-[1.15]"
                     priority
                 />
+                {/* Specific Golden Highlight Pop */}
+                <div className="absolute inset-0 bg-[#ffd700]/10 mix-blend-overlay" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20" />
             </div>
             <div className="relative z-10 text-center space-y-4 px-4">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-tight">
