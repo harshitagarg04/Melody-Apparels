@@ -1,9 +1,9 @@
 import { Card } from "@/components/ui/card";
 
 const brands = [
-    "Raymond", "Blackberrys", "Louis Philippe", "Van Heusen",
-    "Levi's", "Mufti", "Killer", "Peter England",
-    "Manyavar", "Park Avenue"
+    "Blackberrys", "Zodiac","Z3", "Van Heusen",
+    "Levi's", "Mufti", "PEPE", "Peter England",
+    "Manyavar", "Park Avenue", "Indian Terrian"
 ];
 
 export function BrandsSection() {

@@ -40,9 +40,9 @@ export function Footer() {
                     <div className="space-y-4">
                         <h3 className="text-sm font-semibold">Contact</h3>
                         <ul className="space-y-2 text-sm text-muted-foreground">
-                            <li>Mandsaur, Madhya Pradesh</li>
-                            <li>+91 98765 43210</li>
-                            <li>melody@example.com</li>
+                            <li>NEAR, Kambal Kendra Rd, Daloda Chopati, Nai Abaadi, Mandsaur, Madhya Pradesh 458001</li>
+                            <li>+91 87179 68600</li>
+                            <li>melodyapparels@gmail.com</li>
                         </ul>
                     </div>
                 </div>

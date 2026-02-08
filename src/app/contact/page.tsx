@@ -62,9 +62,9 @@ export default function ContactPage() {
                             <div>
                                 <h3 className="font-semibold text-lg">Visit Us</h3>
                                 <p className="text-muted-foreground">
-                                    123, Main Market Road,<br />
-                                    Near Clock Tower,<br />
-                                    Mandsaur, Madhya Pradesh - 458001
+                                     NEAR, Kambal Kendra Rd<br />
+                                     Daloda Chopati, Nai Abaadi, <br />
+                                    Mandsaur, Madhya Pradesh 458001
                                 </p>
                             </div>
                         </div>
@@ -73,10 +73,10 @@ export default function ContactPage() {
                             <div>
                                 <h3 className="font-semibold text-lg">Call Us</h3>
                                 <p className="text-muted-foreground">
-                                    +91 98765 43210
+                                    +91 87179 68600
                                 </p>
                                 <Button variant="link" className="p-0 h-auto text-primary" asChild>
-                                    <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+                                    <a href="https://wa.me/918717968600" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
                                 </Button>
                             </div>
                         </div>
